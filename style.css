@@ -83,38 +83,39 @@ img {
   font-size: 20px;
 }
 #Ava {
-  background-image: red;
-  grid-auto-rows: center;
-  text-align: center;
+  border-radius: 30%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: white;
+  font-family: asap, sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  background: pink;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
   width: 300px;
   height: 300px;
-  border-radius: 30%;
-  align-items: center;
-  padding: 10px;
-  margin: 10px 0px 0px 350px;
-  text-align: center;
-  color: white;
-  font-family: asap, sans-serif;
-  font-weight: bold;
-  font-size: 50px;
-  background: pink;
+
 }
 #Anh {
-  background-image: red;
-  grid-auto-rows: center;
-  text-align: center;
-  width: 420px;
-  height: 310px;
   border-radius: 10%;
-  align-items: center;
   padding: 10px;
-  margin: 10px 0px 0px 350px;
-  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
   color: white;
   font-family: asap, sans-serif;
   font-weight: bold;
   font-size: 50px;
   background: pink;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  width: 300px;
+  height: 500px;
 }
 .reset-board {
   margin: 20px auto;
