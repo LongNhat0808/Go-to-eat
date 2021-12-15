@@ -103,9 +103,9 @@ img {
   background-image: red;
   grid-auto-rows: center;
   text-align: center;
-  width: 300px;
-  height: 300px;
-  border-radius: 30%;
+  width: 420px;
+  height: 310px;
+  border-radius: 10%;
   align-items: center;
   padding: 10px;
   margin: 10px 0px 0px 350px;
@@ -127,10 +127,10 @@ img {
   text-align: center;
   font-family: asap, sans-serif;
   position: relative;
-  transition: all 1.5s ease;
+  transition: all 0.001s ease;
 }
 
-.reset-board:hover {
+.reset-board:active {
   cursor: pointer;
   background: pink;
 }
