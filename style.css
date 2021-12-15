@@ -46,7 +46,7 @@ header > h1 {
   right: -40px;
 }
 .result {
-  font-size: 40px;
+  font-size: 100px;
   color: lightblue;
 }
 .result > p {
@@ -99,6 +99,23 @@ img {
   font-size: 50px;
   background: pink;
 }
+#Anh {
+  background-image: red;
+  grid-auto-rows: center;
+  text-align: center;
+  width: 300px;
+  height: 300px;
+  border-radius: 30%;
+  align-items: center;
+  padding: 10px;
+  margin: 10px 0px 0px 350px;
+  text-align: center;
+  color: white;
+  font-family: asap, sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  background: pink;
+}
 .reset-board {
   margin: 20px auto;
   border: 3px solid white;
@@ -112,6 +129,7 @@ img {
   position: relative;
   transition: all 1.5s ease;
 }
+
 .reset-board:hover {
   cursor: pointer;
   background: pink;
