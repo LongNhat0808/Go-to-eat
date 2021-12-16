@@ -118,6 +118,7 @@ img {
   height: 500px;
 }
 .reset-board {
+  transition-delay: 2s;
   margin: 20px auto;
   border: 3px solid white;
   width: 320px;
@@ -136,6 +137,7 @@ img {
   background: pink;
 }
 #reset-button {
+  transition-delay: 2s;
   padding: 10px;
   margin: 10px;
   text-align: center;
