@@ -73,6 +73,25 @@ function game(b) {
   }, 100);
 }
 
+function toggleMute() {
+
+  var video=document.getElementById("play");
+
+  if(audio.muted){
+    audio.muted = false;
+  } else {
+    debugger;
+    audio.muted = true;
+    audio.play()
+  }
+
+}
+
+$(document).ready(function(){
+  setTimeout(toggleMute,3000);
+})
+
+
 function main() {
   reset_board_div.addEventListener('click', () => game('1'));
 

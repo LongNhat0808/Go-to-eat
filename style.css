@@ -16,6 +16,15 @@ header > h1 {
   text-align: center;
   font-family: asap, sans-serif;
 }
+#play {
+  display: block;
+  height: 15px;
+  background-color: lightblue;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .score-board {
   margin: 20px auto;
   border: 3px solid white;
